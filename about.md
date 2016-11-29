@@ -1,14 +1,19 @@
 ---
+bg: "owl.jpg"
 layout: page
-title: About
+title: "About"
+crawlertitle: "Why and how this blog was created"
 permalink: /about/
+summary: "About this blog"
+active: about
 ---
 
-Hi, I'm Keith.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-I'm an iOS developer with particular focus on Swift. I current work with [Just Eat](https://www.just-eat.co.uk), improving the payment flow of their iOS app.
+You can find the source code for the Jekyll new theme at:
+{{site.twitter_username}} /
+[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-I've previous worked with [BBC News](http://www.bbc.co.uk/news), [Travel Supermarket](https://www.travelsupermarket.com/), [Travelex](https://www.travelex.co.uk/services/supercard), [Hotel.com](https://uk.hotels.com/) and other well known brands, creating engaging and personal mobile experiences.
-
-You can find my open source projects here:
-{% include icon-github.html username="keefmoon" %}
+You can find the source code for Jekyll at
+{{site.github_username}} /
+[jekyll](https://github.com/jekyll/jekyll)
