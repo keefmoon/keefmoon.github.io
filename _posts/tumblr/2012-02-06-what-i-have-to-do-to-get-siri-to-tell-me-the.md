@@ -10,6 +10,6 @@ tumblr_url: http://keefmoon.tumblr.com/post/17174089880/what-i-have-to-do-to-get
 
 Siri is awesome and I use it all the time, but sometime it seems to over complicate things. 
 
-Before Siri there was Voice Control, it did simple things like playing music, voice dialling and tell you the time. However in some instances, Siri seems like a step backwards. 
+Before Siri there was Voice Control, it did simple things like playing music, voice dialing and tell you the time. However in some instances, Siri seems like a step backwards. 
 
 For something as simple as asking for the time, instead of just repeating the iPhone’s current time, it now requires an Internet connection and uses your location to determine your time zone…. except that it doesn’t seem to be able to tie your, very accurate, location to a particular time zone.
