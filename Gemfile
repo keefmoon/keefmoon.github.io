@@ -5,4 +5,5 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-feed'
+gem 'jekyll-sass-converter'
 #gem "minima", "~> 2.0"
