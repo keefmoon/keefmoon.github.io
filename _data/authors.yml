@@ -1,0 +1,33 @@
+# Authors
+
+keith_moon:
+  name: Keith Moon
+  web: http://www.keefmoon.com
+  email: keef@keefmoon.com
+  bio: "iOS Developer, lover of gadgets, child of the future."
+  avatar: bio-photo.jpg
+  email: keef@keefmoon.com
+  twitter: keefmoon
+  github: keefmoon
+  linkedin: keefmoon
+  google:
+    plus: keef.moon
+
+billy_rick:
+  name: Billy Rick
+  web: http://thewhip.com
+  email: billy@rick.com
+  bio: "What do you want, jewels? I am a very extravagant man."
+  avatar: bio-photo-2.jpg
+  twitter: extravagantman
+  google:
+    plus: BillyRick
+
+cornelius_fiddlebone:
+  name: Cornelius Fiddlebone
+  email: cornelius@thewhip.com
+  bio: "I ordered what?"
+  avatar: bio-photo.jpg
+  twitter: rhymeswithsackit
+  google:
+    plus: CorneliusFiddlebone

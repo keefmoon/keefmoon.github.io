@@ -1,32 +1,59 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site wide configuration
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Keith Moon - iOS / Swift Developer - London
-email: keef@keefmoon.com
-description: > # this means to ignore newlines until "baseurl:"
-  I'm an contract iOS developer based in London.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://keefmoon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: keefmoon
-github_username:  keefmoon
+locale: en_GB
+description: I'm an contract iOS developer based in London.
+logo: site-logo.png
+search: true
+url: http://keefmoon.github.io #http://localhost:4000
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
 gems:
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Keith Moon
+  avatar: bio-photo.jpg
+  email: keef@keefmoon.com
+  disqus-shortname:
+  twitter: keefmoon
+  facebook: #username
+  github: keefmoon
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: keefmoon
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: KeithMoon1980
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
