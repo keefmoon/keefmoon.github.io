@@ -5,7 +5,7 @@ locale: en_GB
 description: I'm an contract iOS developer based in London.
 logo: site-logo.png
 search: true
-url: http://keefmoon.github.io #http://localhost:4000
+url: https://keefmoon.github.io #http://localhost:4000
 
 # Jekyll configuration
 
