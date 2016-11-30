@@ -15,7 +15,9 @@ Instead of running in cushioned trainers, I will be running the marathon in mini
 
 ![Vibram Five Fingers]({{ site.url }}/tumblr_files/tumblr_inline_mjxm1tIQGd1qz4rgp.jpg)
 
-You can find out more about barefoot and minimalist running on Wikipedia: [http://en.wikipedia.org/wiki/Barefoot_running](http://en.wikipedia.org/wiki/Barefoot_running)
+You can find out more about barefoot and minimalist running on Wikipedia: 
+
+[http://en.wikipedia.org/wiki/Barefoot_running](http://en.wikipedia.org/wiki/Barefoot_running)
 
 I am looking to reach a sponsorship goal of £2,000 so please sponsor me anything you can spare.
 

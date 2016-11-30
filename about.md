@@ -11,4 +11,4 @@ I'm an iOS developer with particular focus on Swift. I current work with [Just E
 I've previous worked with [BBC News](http://www.bbc.co.uk/news), [Travel Supermarket](https://www.travelsupermarket.com/), [Travelex](https://www.travelex.co.uk/services/supercard), [Hotel.com](https://uk.hotels.com/) and other well known brands, creating engaging and personal mobile experiences.
 
 You can find my open source projects here:
-{% include icon-github.html username="keefmoon" %}
+[keefmoon](http://github.com/keefmoon)
