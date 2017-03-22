@@ -34,7 +34,7 @@ JustPromises is a framework for doing asynchronous work, based on the "promise" 
 Doing a full rewrite enabled me to take full advantage of Swift's generics system and other advanced Swift features. It also allowed me to tidy up the conceptual model and base the ```Promise``` on ```Operation``` (formally ```NSOperation```), since handling a long running task is exactly what ```Operation```s are built for.
 
 Here is the [@justeat_tech](https://twitter.com/justeat_tech) @justeat_tech twitter account, announcing the release:
-https://twitter.com/justeat_tech/status/805746214356611076
+{% twitter https://twitter.com/justeat_tech/status/805746214356611076 %}
 
 JustPromises is available in Objective-C, Swift or both, from [GitHub](https://github.com/justeat/JustPromises) or [Cocoapods](https://cocoapods.org/?q=JustPromises)
 
