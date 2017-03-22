@@ -35,6 +35,7 @@ Doing a full rewrite enabled me to take full advantage of Swift's generics syste
 
 Here is the @justeat_tech twitter account, announcing the release
 {% tweet https://twitter.com/justeat_tech/status/805746214356611076 %}
+[Tweet Link](https://twitter.com/justeat_tech/status/805746214356611076)
 
 JustPromises is available in Objective-C, Swift or both, from [GitHub](https://github.com/justeat/JustPromises) or [Cocoapods](https://cocoapods.org/?q=JustPromises)
 
