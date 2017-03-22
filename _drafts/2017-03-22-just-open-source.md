@@ -17,6 +17,8 @@ author: keith_moon
 
 ## Just Promises
 
+[JustPromises Tweet](https://twitter.com/justeat_tech/status/805746214356611076)
+
 [JustPromises GitHub Repo](https://github.com/justeat/JustPromises)
 
 ## Other iOS Open Source
