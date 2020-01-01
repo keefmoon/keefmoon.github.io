@@ -40,8 +40,8 @@ header a {
 }
 
 header .site-name {
-    font-size: 1.5em;
-    color: #000;
+    font-size: 2em;
+    color: white;
     font-weight: bold;
 }
 
@@ -64,6 +64,7 @@ h2 {
 
 p {
     margin-bottom: 10px;
+    line-height: 1.4;
 }
 
 a {
@@ -88,6 +89,14 @@ a {
 
 .item-list p {
     margin-bottom: 0;
+}
+
+.item-list a {
+    text-decoration: none;
+}
+
+.item-list a:hover {
+  text-decoration: underline;
 }
 
 .tag-list {
@@ -134,16 +143,16 @@ footer {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #222;
+        background-color: #FFF;
     }
 
     body,
-    header .site-name {
-        color: #ddd;
+    header {
+        color: #222;
     }
 
     .item-list > li {
-        background-color: #333;
+        background-color: #FFF;
     }
 
     header {
