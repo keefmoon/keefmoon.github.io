@@ -27,6 +27,10 @@ body {
 
 header {
     background-color: #eee;
+    background-image: url("images/cover-art.jpg");
+    background-size: cover;
+    background-position: left;
+    height: 200px;
 }
 
 header .wrapper {
