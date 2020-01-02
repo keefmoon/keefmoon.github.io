@@ -15,6 +15,7 @@ body {
     color: #000;
     font-family: Helvetica, Arial;
     text-align: center;
+    line-height: 1.4;
 }
 
 .wrapper {
@@ -43,6 +44,10 @@ header a {
     text-decoration: none;
 }
 
+.avatar-image {
+    clip-path: circle(100px at center);
+}
+
 header .site-name {
     font-size: 2em;
     color: white;
@@ -68,7 +73,11 @@ h2 {
 
 p {
     margin-bottom: 10px;
-    line-height: 1.4;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -81,7 +90,7 @@ a {
 
 .item-list > li {
     display: block;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     background-color: #eee;
 }
