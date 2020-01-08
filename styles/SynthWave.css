@@ -1,6 +1,6 @@
 /**
-*  Publish Foundation theme
-*  Copyright (c) John Sundell 2019
+*  Publish SynthWave theme
+*  Copyright (c) Keith Moon 2019
 *  MIT license, see LICENSE file for details
 */
 
@@ -11,8 +11,8 @@
 }
 
 body {
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #fff;
     font-family: Helvetica, Arial;
     text-align: center;
     line-height: 1.4;
@@ -28,9 +28,10 @@ body {
 
 header {
     background-color: #eee;
-    background-image: url("images/cover-art.jpg");
-    background-size: cover;
-    background-position: left;
+    background-image: url("../images/synthwave_top_background.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 200px;
+    background-position: center top;
     height: 200px;
 }
 
@@ -44,8 +45,11 @@ header a {
     text-decoration: none;
 }
 
-.avatar-image {
-    clip-path: circle(100px at center);
+.site-logo {
+    height: 200px;
+    position: relative;
+    top: -30px;
+    left: 10px;
 }
 
 header .site-name {
@@ -91,17 +95,19 @@ a {
 .item-list > li {
     display: block;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #eee;
 }
 
 .item-list h1 {
     margin-bottom: 15px;
     font-size: 1.3em;
+    color: #E0A3F8;
 }
 
 .item-list p {
     margin-bottom: 0;
+    color: #AACBEB;
 }
 
 .item-list a {
@@ -119,8 +125,8 @@ a {
 .tag-list li,
 .tag {
     display: inline-block;
-    background-color: #000;
-    color: #ddd;
+    background-color: #304CDA;
+    color: #E9F8FA;
     padding: 4px 6px;
     border-radius: 5px;
     margin-right: 5px;
@@ -156,16 +162,19 @@ footer {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #FFF;
+        background-color: #111435;
+        background-image: url("../images/synthwave_bottom.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
     }
 
-    body,
-    header {
-        color: #222;
+    body {
+        color: #AACBEB;
     }
 
     .item-list > li {
-        background-color: #FFF;
+        background-color: #111435;
     }
 
     header {

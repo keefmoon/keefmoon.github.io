@@ -1,6 +1,6 @@
 /**
-*  Publish Foundation theme
-*  Copyright (c) John Sundell 2019
+*  Publish SoSimple theme
+*  Copyright (c) Keith Moon 2019
 *  MIT license, see LICENSE file for details
 */
 
@@ -28,7 +28,7 @@ body {
 
 header {
     background-color: #eee;
-    background-image: url("images/cover-art.jpg");
+    background-image: url("../images/cover-art.jpg");
     background-size: cover;
     background-position: left;
     height: 200px;
